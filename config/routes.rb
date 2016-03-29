@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   resources :pins
   devise_for :users
+  
   root 'pages#home'
   get "about" => "pages#about" #creats about path
 

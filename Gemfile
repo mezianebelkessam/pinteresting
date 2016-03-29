@@ -24,6 +24,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'devise', '~> 4.0.0.rc2'
+gem 'paperclip', '~> 4.0'
+gem 'rails_admin'
 
 group :development, :test do
 gem 'sqlite3'
